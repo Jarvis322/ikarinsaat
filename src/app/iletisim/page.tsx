@@ -1,4 +1,4 @@
-import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from 'react-icons/fa';
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaWhatsapp, FaFileUpload } from 'react-icons/fa';
 import Footer from '@/components/Footer';
 
 export const metadata = {
@@ -90,6 +90,29 @@ const ContactPage = () => {
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
                     placeholder="Mesajınızı yazın..."
                   />
+                </div>
+
+                <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-600 border-dashed rounded-lg hover:border-yellow-500 transition-colors">
+                  <div className="space-y-1 text-center">
+                    <FaFileUpload className="mx-auto h-12 w-12 text-gray-400" />
+                    <div className="flex text-sm">
+                      <label
+                        htmlFor="file-upload"
+                        className="relative cursor-pointer bg-gray-700 rounded-md font-medium text-yellow-500 hover:text-yellow-400"
+                      >
+                        <span>CV&apos;nizi yükleyin</span>
+                        <input 
+                          id="file-upload" 
+                          name="cv" 
+                          type="file" 
+                          className="sr-only"
+                          onChange={handleFileChange}
+                          accept=".pdf,.doc,.docx"
+                        />
+                      </label>
+                      <p className="pl-1 text-gray-400">veya sürükleyip bırakın</p>
+                    </div>
+                  </div>
                 </div>
 
                 <button

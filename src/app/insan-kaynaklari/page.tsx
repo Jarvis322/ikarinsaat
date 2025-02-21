@@ -258,7 +258,7 @@ const HRPage = () => {
                           htmlFor="file-upload"
                           className="relative cursor-pointer bg-gray-700 rounded-md font-medium text-yellow-500 hover:text-yellow-400"
                         >
-                          <span>CV'nizi yükleyin</span>
+                          <span>CV&apos;nizi yükleyin</span>
                           <input 
                             id="file-upload" 
                             name="cv" 

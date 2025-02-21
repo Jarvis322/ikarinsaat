@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Footer from '@/components/Footer';
-import { FaHardHat, FaShieldAlt, FaUserCheck, FaBalanceScale, FaHandHoldingHeart, FaLeaf } from 'react-icons/fa';
+import { FaShieldAlt, FaUserCheck, FaBalanceScale, FaHandHoldingHeart, FaLeaf } from 'react-icons/fa';
 
 const principles = [
   {

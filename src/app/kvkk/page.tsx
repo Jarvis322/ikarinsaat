@@ -61,7 +61,7 @@ const KVKKPage = () => {
             </ul>
 
             <p className="mt-8">
-              Yukarıda sıralanan haklarınıza yönelik başvurularınızı, www.ikarinsaat.com.tr internet adresimizden veya kurumumuzdan temin edebileceğiniz VERİ SAHİBİ BAŞVURU FORMU'nu kullanarak veya formda yer alan bilgileri içeren bir dilekçe ile Şirketimize iletebilirsiniz ya da Şirketimize doğrudan başvurabilirsiniz.
+              Yukarıda sıralanan haklarınıza yönelik başvurularınızı, www.ikarinsaat.com.tr internet adresimizden veya kurumumuzdan temin edebileceğiniz VERİ SAHİBİ BAŞVURU FORMU&apos;nu kullanarak veya formda yer alan bilgileri içeren bir dilekçe ile Şirketimize iletebilirsiniz ya da Şirketimize doğrudan başvurabilirsiniz.
             </p>
 
             <p>

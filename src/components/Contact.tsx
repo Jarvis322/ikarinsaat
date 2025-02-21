@@ -83,6 +83,21 @@ const Contact = () => {
                 />
               </div>
 
+              <label
+                htmlFor="file-upload"
+                className="relative cursor-pointer bg-gray-700 rounded-md font-medium text-yellow-500 hover:text-yellow-400"
+              >
+                <span>CV&apos;nizi yükleyin</span>
+                <input 
+                  id="file-upload" 
+                  name="cv" 
+                  type="file" 
+                  className="sr-only"
+                  onChange={handleFileChange}
+                  accept=".pdf,.doc,.docx"
+                />
+              </label>
+
               <button
                 type="submit"
                 className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-lg transition-colors flex items-center justify-center"
