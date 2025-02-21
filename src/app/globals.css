@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Beyaz arka planlı bölümler için özel class */
+.section-white {
+  background-color: white;
+  color: rgb(var(--foreground-rgb));
+}
+
+/* Gri arka planlı bölümler için özel class */
+.section-gray {
+  background-color: #f9fafb;
+  color: rgb(var(--foreground-rgb));
+}
