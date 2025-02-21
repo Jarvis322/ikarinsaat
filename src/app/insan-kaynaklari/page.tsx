@@ -70,7 +70,6 @@ const HRPage = () => {
     setIsSubmitting(true);
     setSubmitStatus({ type: null, message: '' });
 
-    // Form validasyonu
     if (!formData.name || !formData.email || !formData.phone || !formData.position || !formData.cv) {
       setSubmitStatus({
         type: 'error',
@@ -86,20 +85,20 @@ const HRPage = () => {
         if (value) formDataToSend.append(key, value);
       });
 
-      // API endpoint'e form gönderimi
       const response = await fetch('/api/career-application', {
         method: 'POST',
         body: formDataToSend,
       });
 
-      if (!response.ok) throw new Error('Başvuru gönderilirken bir hata oluştu.');
+      if (!response.ok) {
+        throw new Error('Başvuru gönderilirken bir hata oluştu.');
+      }
 
       setSubmitStatus({
         type: 'success',
         message: 'Başvurunuz başarıyla alındı. En kısa sürede sizinle iletişime geçeceğiz.'
       });
       
-      // Formu sıfırla
       setFormData({
         name: '',
         email: '',
@@ -108,11 +107,10 @@ const HRPage = () => {
         cv: null
       });
       
-      // Dosya input'unu sıfırla
       const fileInput = document.getElementById('file-upload') as HTMLInputElement;
       if (fileInput) fileInput.value = '';
 
-    } catch (error) {
+    } catch (err) {
       setSubmitStatus({
         type: 'error',
         message: 'Başvuru gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.'
