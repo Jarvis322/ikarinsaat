@@ -43,6 +43,7 @@ const HRPage = () => {
           type: 'error',
           message: 'Dosya boyutu 10MB&apos;dan küçük olmalıdır.'
         });
+        e.target.value = '';
         return;
       }
       if (!['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'].includes(file.type)) {
@@ -50,12 +51,17 @@ const HRPage = () => {
           type: 'error',
           message: 'Lütfen PDF veya Word dosyası yükleyin.'
         });
+        e.target.value = '';
         return;
       }
       setFormData(prev => ({
         ...prev,
         cv: file
       }));
+      setSubmitStatus({
+        type: 'success',
+        message: `${file.name} başarıyla yüklendi.`
+      });
     }
   };
 

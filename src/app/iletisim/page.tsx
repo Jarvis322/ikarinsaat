@@ -92,29 +92,6 @@ const ContactPage = () => {
                   />
                 </div>
 
-                <div className="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-600 border-dashed rounded-lg hover:border-yellow-500 transition-colors">
-                  <div className="space-y-1 text-center">
-                    <FaFileUpload className="mx-auto h-12 w-12 text-gray-400" />
-                    <div className="flex text-sm">
-                      <label
-                        htmlFor="file-upload"
-                        className="relative cursor-pointer bg-gray-700 rounded-md font-medium text-yellow-500 hover:text-yellow-400"
-                      >
-                        <span>CV&apos;nizi yükleyin</span>
-                        <input 
-                          id="file-upload" 
-                          name="cv" 
-                          type="file" 
-                          className="sr-only"
-                          onChange={handleFileChange}
-                          accept=".pdf,.doc,.docx"
-                        />
-                      </label>
-                      <p className="pl-1 text-gray-400">veya sürükleyip bırakın</p>
-                    </div>
-                  </div>
-                </div>
-
                 <button
                   type="submit"
                   className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-4 px-8 rounded-lg transition-colors"
