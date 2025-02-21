@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaHandHoldingHeart, FaBalanceScale, FaUserCheck, FaHandshake, FaShieldAlt, FaLeaf, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaHandHoldingHeart, FaBalanceScale, FaUserCheck, FaShieldAlt, FaLeaf, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
 const projects = [
   {

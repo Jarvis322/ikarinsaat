@@ -44,7 +44,7 @@ const Hero = () => {
           <div className="container mx-auto px-4 pt-20 md:pt-0">
             <div className="max-w-3xl">
               <h1 className="text-3xl md:text-6xl font-bold text-white mb-6 md:mb-8">
-                <span className="block mb-2 md:mb-4">1968'den Beri</span>
+                <span className="block mb-2 md:mb-4">1968&apos;den Beri</span>
                 <span className="block">Aradığınız Çözüm</span>
               </h1>
               <p className="text-lg md:text-xl text-gray-100 mb-8 max-w-2xl">

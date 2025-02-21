@@ -27,7 +27,7 @@ const CookieConsent = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="text-sm">
           Bu web sitesi, size en iyi deneyimi sunmak için çerezleri kullanmaktadır. 
-          Daha fazla bilgi için <Link href="/kvkk" className="text-yellow-500 hover:text-yellow-400 underline">KVKK Aydınlatma Metni</Link>'ni inceleyebilirsiniz.
+          Daha fazla bilgi için <Link href="/kvkk" className="text-yellow-500 hover:text-yellow-400 underline">KVKK Aydınlatma Metni&apos;ni</Link> inceleyebilirsiniz.
         </div>
         <button
           onClick={acceptCookies}

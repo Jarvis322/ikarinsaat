@@ -8,7 +8,7 @@ const Introduction = () => {
           <div className="space-y-6">
             <h2 className="text-4xl font-bold text-gray-900">İKAR İNŞAAT</h2>
             <p className="text-lg text-gray-700 leading-relaxed">
-              1986 yılında Bağdat Caddesi'nde kurulan <span className="font-semibold">İKAR İNŞAAT</span>, 
+              1986 yılında Bağdat Caddesi&apos;nde kurulan <span className="font-semibold">İKAR İNŞAAT</span>, 
               kuruluşundan bu yana geçen neredeyse 40 senede inşaat alanındaki faaliyetlerini 
               aralıksız olarak sürdürmüş olup, ekseriyetle apartman ve villa tipi konutlar, 
               iş merkezleri ve ticari yapılar inşa etmiştir.
