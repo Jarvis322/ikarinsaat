@@ -18,15 +18,15 @@ const KVKKPage = () => {
 
             <h2>KİŞİSEL VERİLERİNİZİ TOPLAMAMIZIN YÖNTEMİ VE HUKUKİ SEBEBİ</h2>
             <p>
-              Kişisel verileriniz Şirketimiz tarafından Şirketimizde çalışanlarımıza fiziki veya telefon aracılığı ile ya da elektronik ortamda (internet sitemizde/mobil uygulamalarımızda) yaptırdığınız kayıt, başvuru, sipariş, randevu, iş başvuruları, elektronik ortam gezintilerinizde toplanan çerezler gibi farklı kanallarla elde edilmekte, bu veriler Şirketimizin ilgili mevzuatlara ve Şirket Politikalarına uyumun sağlanması hukuki sebeplerine dayanılarak toplanmaktadır. Kişisel verileriniz, 6698 Sayılı KVKK tarafından öngörülen temel ilkelere uygun olarak, KVKK'nın 4., 5. ve 6. maddelerinde belirtilen kişisel veri ve özel nitelikli kişisel veri işleme şartları ve amaçları kapsamında bu Aydınlatma Metninde belirtilen amaçlarla işlenebilmekte ve aktarılabilmektedir.
+              Kişisel verileriniz Şirketimiz tarafından Şirketimizde çalışanlarımıza fiziki veya telefon aracılığı ile ya da elektronik ortamda (internet sitemizde/mobil uygulamalarımızda) yaptırdığınız kayıt, başvuru, sipariş, randevu, iş başvuruları, elektronik ortam gezintilerinizde toplanan çerezler gibi farklı kanallarla elde edilmekte, bu veriler Şirketimizin ilgili mevzuatlara ve Şirket Politikalarına uyumun sağlanması hukuki sebeplerine dayanılarak toplanmaktadır. Kişisel verileriniz, 6698 Sayılı KVKK tarafından öngörülen temel ilkelere uygun olarak, KVKK&apos;nın 4., 5. ve 6. maddelerinde belirtilen kişisel veri ve özel nitelikli kişisel veri işleme şartları ve amaçları kapsamında bu Aydınlatma Metninde belirtilen amaçlarla işlenebilmekte ve aktarılabilmektedir.
             </p>
 
             <h2>KİŞİSEL VERİLERİNİZİ İŞLEME AMAÇLARIMIZ</h2>
             <p>
-              Toplanan kişisel verileriniz, KVKK tarafından öngörülen temel ilkelere uygun olarak ve KVKK'nın 4., 5. ve 6. maddelerinde belirtilen kişisel veri ve özel nitelikli kişisel veri işleme şartları ve amaçları dahilin de Şirketimiz tarafından aşağıda yer alan amaçlarla işlenebilmektedir:
+              Toplanan kişisel verileriniz, KVKK tarafından öngörülen temel ilkelere uygun olarak ve KVKK&apos;nın 4., 5. ve 6. maddelerinde belirtilen kişisel veri ve özel nitelikli kişisel veri işleme şartları ve amaçları dahilin de Şirketimiz tarafından aşağıda yer alan amaçlarla işlenebilmektedir:
             </p>
             <ul>
-              <li>Şirketimizin yürüttüğü ticari faaliyetlerin ilgili mevzuata ve Şirket Politikalarına uygun olarak yerine getirilmesi için Şirket'imizin iş birimleri tarafından gerekli çalışmaların yapılması ve bu doğrultuda faaliyetlerin yürütülmesi,</li>
+              <li>Şirketimizin yürüttüğü ticari faaliyetlerin ilgili mevzuata ve Şirket Politikalarına uygun olarak yerine getirilmesi için Şirket&apos;imizin iş birimleri tarafından gerekli çalışmaların yapılması ve bu doğrultuda faaliyetlerin yürütülmesi,</li>
               <li>Elektronik ortam ziyaretçilerine kişisel içerik ve reklamlar göstermek, portal üzerinde trafik analizi gerçekleştirmek ve ziyaretçi kullanım alışkanlıklarını anlamak,</li>
               <li>Şirketimizin kısa, orta ve uzun vadede ticari politikalarının tespit edilmesi, planlanması ve uygulanması,</li>
               <li>Şirketimizin insan kaynakları faaliyetlerinin tasarlanması ve yürütülmesi;</li>
@@ -37,7 +37,7 @@ const KVKKPage = () => {
 
             <h2>KİŞİSEL VERİLERİNİZİN YURT İÇİNDEKİ ÜÇÜNCÜ KİŞİLERLE PAYLAŞILMASI</h2>
             <p>
-              Toplanan kişisel verileriniz; KVKK tarafından öngörülen temel ilkelere uygun olarak ve KVKK'nın 8. ve 9. maddelerinde belirtilen kişisel veri işleme şartları ve amaçları dahilinde, Şirketimiz tarafından aşağıda yer alan amaçlarla; gerçek ve özel hukuk tüzel kişilerine, iş ortaklarımıza, tedarikçilerimize, hissedarlarımıza, kanunen yetkili kamu kurum ve kuruluşlarına aktarılabilmektedir.
+              Toplanan kişisel verileriniz; KVKK tarafından öngörülen temel ilkelere uygun olarak ve KVKK&apos;nın 8. ve 9. maddelerinde belirtilen kişisel veri işleme şartları ve amaçları dahilinde, Şirketimiz tarafından aşağıda yer alan amaçlarla; gerçek ve özel hukuk tüzel kişilerine, iş ortaklarımıza, tedarikçilerimize, hissedarlarımıza, kanunen yetkili kamu kurum ve kuruluşlarına aktarılabilmektedir.
             </p>
 
             <h2>KİŞİSEL VERİLERİNİZİN YURT DIŞINDAKİ ÜÇÜNCÜ KİŞİLERLE PAYLAŞILMASI</h2>
@@ -45,9 +45,9 @@ const KVKKPage = () => {
               Kişisel bilgileriniz yurt dışındaki üçüncü kişilerle paylaşılmamaktadır. Paylaşılması gereken bir durumun söz konusu olması halinde buna ilişkin Açık Rızanız alınacaktır.
             </p>
 
-            <h2>VERİ SAHİBİ OLARAK KVKK'NIN 11. MADDESİNDE SAYILAN HAKLARINIZ</h2>
+            <h2>VERİ SAHİBİ OLARAK KVKK&apos;NIN 11. MADDESİNDE SAYILAN HAKLARINIZ</h2>
             <p>
-              Kişisel verisi işlenen gerçek kişilerin KVKK'nın 11. maddesi uyarıca sahip olduğu haklar aşağıdaki gibidir;
+              Kişisel verisi işlenen gerçek kişilerin KVKK&apos;nın 11. maddesi uyarıca sahip olduğu haklar aşağıdaki gibidir;
             </p>
             <ul>
               <li>Kişisel veri işlenip işlenmediğini öğrenme,</li>
@@ -65,7 +65,7 @@ const KVKKPage = () => {
             </p>
 
             <p>
-              Şirket'imiz, talebin niteliğine göre talebi en kısa sürede ve en geç otuz (30) gün içinde ücretsiz olarak sonuçlandıracaktır. Ancak, işlemin ayrıca bir maliyeti gerektirmesi hâlinde, tarafımızca Kişisel Verileri Koruma Kurulu tarafından belirlenen tarifedeki ücret alınacaktır.
+              Şirket&apos;imiz, talebin niteliğine göre talebi en kısa sürede ve en geç otuz (30) gün içinde ücretsiz olarak sonuçlandıracaktır. Ancak, işlemin ayrıca bir maliyeti gerektirmesi hâlinde, tarafımızca Kişisel Verileri Koruma Kurulu tarafından belirlenen tarifedeki ücret alınacaktır.
             </p>
           </div>
         </div>

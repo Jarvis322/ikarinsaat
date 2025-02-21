@@ -38,15 +38,13 @@ const HRPage = () => {
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files[0]) {
       const file = e.target.files[0];
-      // Dosya boyutu kontrolü (10MB)
       if (file.size > 10 * 1024 * 1024) {
         setSubmitStatus({
           type: 'error',
-          message: 'Dosya boyutu 10MB\'dan küçük olmalıdır.'
+          message: 'Dosya boyutu 10MB&apos;dan küçük olmalıdır.'
         });
         return;
       }
-      // Dosya tipi kontrolü
       if (!['application/pdf', 'application/msword', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'].includes(file.type)) {
         setSubmitStatus({
           type: 'error',

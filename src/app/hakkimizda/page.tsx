@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Hakkımızda - İkar İnşaat | 40 Yıllık Güvenilir İnşaat Firması',
-  description: '1986\'dan beri İstanbul\'da kaliteli konut projeleri, iş merkezleri ve ticari yapılar inşa eden İkar İnşaat. 40 yıllık tecrübe ve güvenilirlik.',
+  description: '1986&apos;dan beri İstanbul&apos;da kaliteli konut projeleri, iş merkezleri ve ticari yapılar inşa eden İkar İnşaat. 40 yıllık tecrübe ve güvenilirlik.',
 };
 
 const AboutPage = () => {
@@ -34,7 +34,7 @@ const AboutPage = () => {
             <div>
               <h2 className="text-3xl font-bold mb-6">Biz Kimiz?</h2>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                1986 yılında İstanbul'un en prestijli lokasyonlarından biri olan Bağdat Caddesi'nde kurulan İKAR İNŞAAT, 
+                1986 yılında İstanbul&apos;un en prestijli lokasyonlarından biri olan Bağdat Caddesi&apos;nde kurulan İKAR İNŞAAT, 
                 kuruluşundan bu yana geçen neredeyse 40 senede inşaat alanındaki faaliyetlerini aralıksız olarak sürdürmüş olup, 
                 ekseriyetle apartman ve villa tipi konutlar, iş merkezleri ve ticari yapılar inşa etmiştir.
               </p>
@@ -43,9 +43,9 @@ const AboutPage = () => {
                 konsept oluşturulmasından, inşaatın anahtar teslimine kadar uzanan tüm süreçlerde müşterilerine hizmet vermektedir.
               </p>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                'Butik Projeler' yaklaşımımızla her bir projenin kendine has şartlarını göz önüne alarak ve projelere has çözümler üreterek 
+                &apos;Butik Projeler&apos; yaklaşımımızla her bir projenin kendine has şartlarını göz önüne alarak ve projelere has çözümler üreterek 
                 müşteri memnuniyeti sağlamayı odağı haline getiren firmamız halihazırda faaliyetlerini Çiftehavuzlar Semti Bağdat Caddesi üzerindeki 
-                İKAR PLAZA'da sürdürmektedir.
+                İKAR PLAZA&apos;da sürdürmektedir.
               </p>
             </div>
           </div>
