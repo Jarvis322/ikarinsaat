@@ -110,7 +110,7 @@ const HRPage = () => {
       const fileInput = document.getElementById('file-upload') as HTMLInputElement;
       if (fileInput) fileInput.value = '';
 
-    } catch (err) {
+    } catch {
       setSubmitStatus({
         type: 'error',
         message: 'Başvuru gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.'
